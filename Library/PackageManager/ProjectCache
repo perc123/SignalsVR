@@ -5,23 +5,177 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638501631173317814
-    m_Hash: 2640656225
+      ticks: 638501713249970690
+    m_Hash: 973775172
   m_LockFileStatus:
     m_FilePath: C:/Users/fanis/SignalsVR/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638501631173375949
-    m_Hash: 741848500
+      ticks: 638501713250081471
+    m_Hash: 1407225830
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
-  m_LocalFileStatus: []
+  m_LocalFileStatus:
+  - m_FilePath: C:\Users\fanis\Downloads\com.meta.xr.simulator.samples-64.0.0.tgz/package.json
+    m_PathExists: 0
+    m_ContentTrackingEnabled: 1
+    m_ModificationDate:
+      serializedVersion: 2
+      ticks: 0
+    m_Hash: 0
+  - m_FilePath: C:\Users\fanis\Downloads\com.meta.xr.simulator.samples-64.0.0.tgz
+    m_PathExists: 1
+    m_ContentTrackingEnabled: 1
+    m_ModificationDate:
+      serializedVersion: 2
+      ticks: 638501675729483704
+    m_Hash: 1652952946
 m_ProjectPath: C:/Users/fanis/SignalsVR/Packages
 m_EditorVersion: 2022.3.13f1 (5f90a5ebde0f)
 m_ResolvedPackages:
+- packageId: com.meta.xr.simulator@64.0.0
+  testable: 0
+  isDirectDependency: 1
+  version: 64.0.0
+  source: 1
+  resolvedPath: C:\Users\fanis\SignalsVR\Library\PackageCache\com.meta.xr.simulator@64.0.0
+  assetPath: Packages/com.meta.xr.simulator
+  name: com.meta.xr.simulator
+  displayName: Meta XR Simulator
+  author:
+    name: Meta Platforms, Inc.
+    email: 
+    url: https://developer.oculus.com/
+  category: 
+  type: 
+  description: Meta XR Simulator allows developers to preview their VR changes without
+    needing a physical device.
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 57.0.0
+    - 59.0.0
+    - 60.0.0
+    - 62.0.0
+    - 64.0.0
+    compatible:
+    - 57.0.0
+    - 59.0.0
+    - 60.0.0
+    - 62.0.0
+    - 64.0.0
+    recommended: 
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords:
+  - Oculus
+  - XrSim
+  - Meta
+  - Quest
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 1
+  datePublishedTicks: 638489102970000000
+  documentationUrl: https://developer.oculus.com/documentation/unity/
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.meta.xr.simulator.samples@file:C:\Users\fanis\Downloads\com.meta.xr.simulator.samples-64.0.0.tgz
+  testable: 0
+  isDirectDependency: 1
+  version: 64.0.0
+  source: 6
+  resolvedPath: C:\Users\fanis\SignalsVR\Library\PackageCache\com.meta.xr.simulator.samples@a0d0d3ab9121
+  assetPath: Packages/com.meta.xr.simulator.samples
+  name: com.meta.xr.simulator.samples
+  displayName: Meta XR Simulator Samples
+  author:
+    name: Meta Platforms, Inc.
+    email: 
+    url: https://developer.oculus.com/
+  category: 
+  type: 
+  description: Sample assets for using Meta XR Simulator. Requires the Meta XR Core
+    SDK package.
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 59.0.1
+    - 60.0.0
+    - 62.0.0
+    - 64.0.0
+    compatible:
+    - 59.0.1
+    - 60.0.0
+    - 62.0.0
+    - 64.0.0
+    recommended: 
+    deprecated: []
+  dependencies:
+  - name: com.meta.xr.sdk.core
+    version: 64.0.0
+  - name: com.meta.xr.simulator
+    version: 64.0.0
+  resolvedDependencies:
+  - name: com.meta.xr.sdk.core
+    version: 64.0.0
+  - name: com.meta.xr.simulator
+    version: 64.0.0
+  keywords:
+  - Meta
+  - XrSim
+  - Quest
+  - Oculus
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: https://developer.oculus.com/documentation/unity/
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.collab-proxy@2.3.1
   testable: 0
   isDirectDependency: 1
@@ -1001,117 +1155,187 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.xr.oculus@4.1.2
+- packageId: com.unity.xr.meta-openxr@1.0.1
   testable: 0
   isDirectDependency: 1
-  version: 4.1.2
+  version: 1.0.1
   source: 1
-  resolvedPath: C:\Users\fanis\SignalsVR\Library\PackageCache\com.unity.xr.oculus@4.1.2
-  assetPath: Packages/com.unity.xr.oculus
-  name: com.unity.xr.oculus
-  displayName: Oculus XR Plugin
+  resolvedPath: C:\Users\fanis\SignalsVR\Library\PackageCache\com.unity.xr.meta-openxr@1.0.1
+  assetPath: Packages/com.unity.xr.meta-openxr
+  name: com.unity.xr.meta-openxr
+  displayName: Unity OpenXR Meta
   author:
     name: 
     email: 
     url: 
   category: 
   type: assets
-  description: Provides display and input support for Oculus devices.
+  description: Enables you to build mixed reality apps for Meta Quest devices by
+    implementing support for Meta's OpenXR extensions.
   status: 0
   errors: []
   versions:
     all:
-    - 0.0.9-preview
-    - 0.1.2-preview.1
-    - 0.8.4-preview
-    - 1.0.0-preview.4
+    - 0.1.1
+    - 0.1.2
+    - 0.2.1
     - 1.0.0
+    - 1.0.1
+    - 2.0.0-pre.1
+    - 2.0.0
+    compatible:
+    - 1.0.0
+    - 1.0.1
+    recommended: 1.0.1
+    deprecated: []
+  dependencies:
+  - name: com.unity.xr.openxr
+    version: 1.7.0
+  - name: com.unity.xr.arfoundation
+    version: 5.1.0-pre.6
+  resolvedDependencies:
+  - name: com.unity.xr.openxr
+    version: 1.9.1
+  - name: com.unity.xr.management
+    version: 4.4.0
+  - name: com.unity.modules.subsystems
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.modules.vr
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.xr
+    version: 1.0.0
+  - name: com.unity.xr.legacyinputhelpers
+    version: 2.1.10
+  - name: com.unity.inputsystem
+    version: 1.7.0
+  - name: com.unity.modules.uielements
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.xr.core-utils
+    version: 2.2.3
+  - name: com.unity.xr.arfoundation
+    version: 5.1.0
+  - name: com.unity.editorcoroutines
+    version: 1.0.0
+  - name: com.unity.ugui
+    version: 1.0.0
+  - name: com.unity.mathematics
+    version: 1.2.6
+  - name: com.unity.modules.particlesystem
+    version: 1.0.0
+  - name: com.unity.modules.unityanalytics
+    version: 1.0.0
+  - name: com.unity.modules.unitywebrequest
+    version: 1.0.0
+  keywords:
+  - openxr
+  - meta
+  - oculus
+  - xr
+  - vr
+  - mr
+  - virtual
+  - reality
+  - rift
+  - quest
+  - arfoundation
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638366790990000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.xr.meta-openxr@1.0/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/xr.sdk.meta-openxr.git
+    revision: b733abd7a682340768cce21f73acf75e2a98d2fd
+    path: 
+  unityLifecycle:
+    version: 1.0.0
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.xr.openxr@1.9.1
+  testable: 0
+  isDirectDependency: 1
+  version: 1.9.1
+  source: 1
+  resolvedPath: C:\Users\fanis\SignalsVR\Library\PackageCache\com.unity.xr.openxr@1.9.1
+  assetPath: Packages/com.unity.xr.openxr
+  name: com.unity.xr.openxr
+  displayName: OpenXR Plugin
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: assets
+  description: OpenXR is an open, royalty-free standard developed by Khronos that
+    aims to simplify AR/VR development by allowing developers to target a wide range
+    of AR/VR devices. Use this plug-in to enable OpenXR in XR Plug-in Management.
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 0.1.1-preview.1
+    - 0.1.2-preview.2
+    - 1.0.0-pre.1
     - 1.0.2
-    - 1.0.3-preview.1
-    - 1.1.0-preview
-    - 1.1.0
+    - 1.0.3
     - 1.1.1
-    - 1.1.2-preview
-    - 1.1.2
-    - 1.1.3-preview
-    - 1.1.3-preview.1
-    - 1.1.4-preview
-    - 1.1.4-preview.1
-    - 1.1.4
-    - 1.1.5-preview
-    - 1.1.5
-    - 1.2.0-preview.1
     - 1.2.0
+    - 1.2.2
+    - 1.2.3
+    - 1.2.8
+    - 1.3.0
     - 1.3.1
-    - 1.3.3
-    - 1.3.4
-    - 1.4.0-preview.1
-    - 1.4.0-preview.2
     - 1.4.0
-    - 1.4.3
+    - 1.4.1
+    - 1.4.2
+    - 1.5.0-exp.1
     - 1.5.0
     - 1.5.1
-    - 1.6.0-preview.1
-    - 1.6.0-preview.2
-    - 1.6.1
-    - 1.7.0-preview.1
-    - 1.7.0-preview.2
+    - 1.5.3
+    - 1.6.0
     - 1.7.0
+    - 1.8.0
     - 1.8.1
-    - 1.9.0-preview.1
-    - 1.9.0
+    - 1.8.2
     - 1.9.1
-    - 1.10.0-preview.1
-    - 1.10.0-preview.2
     - 1.10.0
-    - 1.10.1-preview.3
-    - 1.11.0
-    - 1.11.2
-    - 1.12.0
-    - 1.12.1
-    - 1.13.0
-    - 1.13.1-preview.1
-    - 1.13.1-preview.2
-    - 1.13.1
-    - 2.0.0-preview.1
-    - 2.0.0-preview.2
-    - 2.0.0-preview.4
-    - 2.0.0-preview.5
-    - 2.0.2-preview.1
-    - 2.2.0-preview.1
-    - 2.2.3-preview.1
-    - 2.2.3-preview.2
-    - 3.0.0-pre.1
-    - 3.0.0-pre.2
-    - 3.0.0-pre.4
-    - 3.0.0
-    - 3.0.1
-    - 3.0.2
-    - 3.1.1
-    - 3.2.1
-    - 3.2.2-pre.1
-    - 3.2.2
-    - 3.2.3-pre.1
-    - 3.2.3
-    - 3.3.0
-    - 3.4.0
-    - 4.0.0
-    - 4.1.1
-    - 4.1.2
-    - 4.2.0-exp-env-depth.1
-    - 4.2.0-exp-env-depth.2
-    - 4.2.0
+    - 1.11.0-exp.1
     compatible:
-    - 4.1.1
-    - 4.1.2
-    - 4.2.0-exp-env-depth.1
-    - 4.2.0-exp-env-depth.2
-    - 4.2.0
-    recommended: 4.1.2
+    - 1.9.1
+    - 1.10.0
+    - 1.11.0-exp.1
+    recommended: 1.9.1
     deprecated: []
   dependencies:
   - name: com.unity.xr.management
     version: 4.4.0
+  - name: com.unity.xr.legacyinputhelpers
+    version: 2.1.2
+  - name: com.unity.inputsystem
+    version: 1.6.3
+  - name: com.unity.xr.core-utils
+    version: 2.1.1
   resolvedDependencies:
   - name: com.unity.xr.management
     version: 4.4.0
@@ -1127,13 +1351,20 @@ m_ResolvedPackages:
     version: 1.0.0
   - name: com.unity.xr.legacyinputhelpers
     version: 2.1.10
+  - name: com.unity.inputsystem
+    version: 1.7.0
+  - name: com.unity.modules.uielements
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.xr.core-utils
+    version: 2.2.3
   keywords:
-  - oculus
+  - openxr
   - xr
-  - vr
-  - virtual
-  - rift
-  - quest
+  - reality
   - xreditorsubsystem
   registry:
     id: main
@@ -1145,16 +1376,16 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638351474750000000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.xr.oculus@4.1/manual/index.html
+  datePublishedTicks: 638337609010000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.xr.openxr@1.9/manual/index.html
   hasRepository: 1
   repository:
     type: git
-    url: https://github.cds.internal.unity3d.com/unity/xr.sdk.oculus.git
-    revision: 43cbde15c785269457550d6f414b4b2590c5ff3b
+    url: https://github.cds.internal.unity3d.com/unity/xr.sdk.openxr.git
+    revision: 630b0982955a4b4bbc0ee8440739c579544bbd80
     path: 
   unityLifecycle:
-    version: 4.1.1
+    version: 1.9.1
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -3198,6 +3429,108 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+- packageId: com.unity.xr.legacyinputhelpers@2.1.10
+  testable: 0
+  isDirectDependency: 0
+  version: 2.1.10
+  source: 1
+  resolvedPath: C:\Users\fanis\SignalsVR\Library\PackageCache\com.unity.xr.legacyinputhelpers@2.1.10
+  assetPath: Packages/com.unity.xr.legacyinputhelpers
+  name: com.unity.xr.legacyinputhelpers
+  displayName: XR Legacy Input Helpers
+  author:
+    name: 
+    email: 
+    url: 
+  category: XR
+  type: asset
+  description: This package includes the tracked pose driver for the legacy input
+    system, the XR Bindings Seeding Tool and 3Dof Arm Model support for the Tracked
+    Pose Driver. The Tracked Pose Driver is a behavior that enables GameObjects to
+    track input devices, the XR Bindings Seeding Tool adds a menu item under the
+    'Assets' menu which populates the Input Asset with Unity's crossplatform Input
+    Bindings
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 1.0.0
+    - 1.0.2
+    - 1.0.3
+    - 1.3.1
+    - 1.3.2
+    - 1.3.4
+    - 1.3.5
+    - 1.3.6
+    - 1.3.7
+    - 1.3.8
+    - 1.3.11
+    - 2.0.1
+    - 2.0.2
+    - 2.0.4
+    - 2.0.6
+    - 2.0.8
+    - 2.1.1
+    - 2.1.2
+    - 2.1.3
+    - 2.1.4
+    - 2.1.6
+    - 2.1.7
+    - 2.1.8
+    - 2.1.9
+    - 2.1.10
+    compatible:
+    - 2.1.10
+    recommended: 2.1.10
+    deprecated: []
+  dependencies:
+  - name: com.unity.modules.vr
+    version: 1.0.0
+  - name: com.unity.modules.xr
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.modules.vr
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.xr
+    version: 1.0.0
+  - name: com.unity.modules.subsystems
+    version: 1.0.0
+  keywords:
+  - TPD
+  - Tracked Pose Driver
+  - XR
+  - Input
+  - Helpers
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 637958908030000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.xr.legacyinputhelpers.git
+    revision: 465ee12451634ea2b2986d54f6ae8be37316772a
+    path: 
+  unityLifecycle:
+    version: 2.1.10
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.inputsystem@1.7.0
   testable: 0
   isDirectDependency: 0
@@ -3321,82 +3654,6 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.mathematics@1.2.6
-  testable: 0
-  isDirectDependency: 0
-  version: 1.2.6
-  source: 1
-  resolvedPath: C:\Users\fanis\SignalsVR\Library\PackageCache\com.unity.mathematics@1.2.6
-  assetPath: Packages/com.unity.mathematics
-  name: com.unity.mathematics
-  displayName: Mathematics
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: asset
-  description: Unity's C# SIMD math library providing vector types and math functions
-    with a shader like syntax.
-  status: 0
-  errors: []
-  versions:
-    all:
-    - 0.0.12-preview.2
-    - 0.0.12-preview.5
-    - 0.0.12-preview.8
-    - 0.0.12-preview.10
-    - 0.0.12-preview.11
-    - 0.0.12-preview.13
-    - 0.0.12-preview.17
-    - 0.0.12-preview.19
-    - 0.0.12-preview.20
-    - 1.0.0-preview.1
-    - 1.0.1
-    - 1.1.0-preview.1
-    - 1.1.0
-    - 1.2.1
-    - 1.2.4
-    - 1.2.5
-    - 1.2.6
-    - 1.3.1
-    - 1.3.2
-    compatible:
-    - 1.2.6
-    - 1.3.1
-    - 1.3.2
-    recommended: 1.2.6
-    deprecated: []
-  dependencies: []
-  resolvedDependencies: []
-  keywords:
-  - unity
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-  hideInEditor: 1
-  isAssetStorePackage: 0
-  datePublishedTicks: 637841876140000000
-  documentationUrl: 
-  hasRepository: 1
-  repository:
-    type: git
-    url: https://github.com/Unity-Technologies/Unity.Mathematics.git
-    revision: f110c8c230d253654afed153569030a587cc7557
-    path: 
-  unityLifecycle:
-    version: 1.2.6
-    nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
 - packageId: com.unity.xr.core-utils@2.2.3
   testable: 0
   isDirectDependency: 0
@@ -3502,82 +3759,228 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.xr.legacyinputhelpers@2.1.10
+- packageId: com.unity.xr.arfoundation@5.1.0
   testable: 0
   isDirectDependency: 0
-  version: 2.1.10
+  version: 5.1.0
   source: 1
-  resolvedPath: C:\Users\fanis\SignalsVR\Library\PackageCache\com.unity.xr.legacyinputhelpers@2.1.10
-  assetPath: Packages/com.unity.xr.legacyinputhelpers
-  name: com.unity.xr.legacyinputhelpers
-  displayName: XR Legacy Input Helpers
+  resolvedPath: C:\Users\fanis\SignalsVR\Library\PackageCache\com.unity.xr.arfoundation@5.1.0
+  assetPath: Packages/com.unity.xr.arfoundation
+  name: com.unity.xr.arfoundation
+  displayName: AR Foundation
   author:
     name: 
     email: 
     url: 
-  category: XR
-  type: asset
-  description: This package includes the tracked pose driver for the legacy input
-    system, the XR Bindings Seeding Tool and 3Dof Arm Model support for the Tracked
-    Pose Driver. The Tracked Pose Driver is a behavior that enables GameObjects to
-    track input devices, the XR Bindings Seeding Tool adds a menu item under the
-    'Assets' menu which populates the Input Asset with Unity's crossplatform Input
-    Bindings
+  category: 
+  type: assets
+  description: "A collection of Subsystems as well as MonoBehaviours and C# utilities
+    for working with the Subsystems. \n\nIncludes: \n\u25AA Definitions of Subsystems
+    \n\u25AA GameObject menu items for creating an AR setup \n\u25AA MonoBehaviours
+    that control AR session lifecycle and create GameObjects from detected, real-world
+    trackable features \n\u25AA Scale handling \n\u25AA Face tracking\n\nSamples
+    available at https://github.com/Unity-Technologies/arfoundation-samples"
   status: 0
   errors: []
   versions:
     all:
-    - 1.0.0
-    - 1.0.2
-    - 1.0.3
-    - 1.3.1
-    - 1.3.2
-    - 1.3.4
-    - 1.3.5
-    - 1.3.6
-    - 1.3.7
-    - 1.3.8
-    - 1.3.11
-    - 2.0.1
+    - 1.0.0-preview.12
+    - 1.0.0-preview.13
+    - 1.0.0-preview.14
+    - 1.0.0-preview.17
+    - 1.0.0-preview.18
+    - 1.0.0-preview.19
+    - 1.0.0-preview.20
+    - 1.0.0-preview.22
+    - 1.1.0-preview.6
+    - 1.5.0-preview.2
+    - 1.5.0-preview.5
+    - 1.5.0-preview.6
+    - 1.5.0-preview.7
     - 2.0.2
-    - 2.0.4
-    - 2.0.6
-    - 2.0.8
+    - 2.1.0-preview.2
+    - 2.1.0-preview.3
     - 2.1.1
-    - 2.1.2
     - 2.1.3
     - 2.1.4
-    - 2.1.6
-    - 2.1.7
     - 2.1.8
-    - 2.1.9
     - 2.1.10
+    - 2.1.14
+    - 2.1.16
+    - 2.1.18
+    - 2.1.19
+    - 2.2.0-preview.2
+    - 2.2.0-preview.3
+    - 2.2.0-preview.6
+    - 3.0.0-preview.1
+    - 3.0.0-preview.2
+    - 3.0.0-preview.3
+    - 3.0.0-preview.4
+    - 3.0.0-preview.6
+    - 3.0.1
+    - 3.1.0-preview.1
+    - 3.1.0-preview.3
+    - 3.1.0-preview.4
+    - 3.1.0-preview.6
+    - 3.1.0-preview.7
+    - 3.1.0-preview.8
+    - 3.1.3
+    - 3.1.5
+    - 3.1.6
+    - 3.1.10
+    - 4.0.0-preview.1
+    - 4.0.0-preview.3
+    - 4.0.2
+    - 4.0.8
+    - 4.0.9
+    - 4.0.10
+    - 4.0.12
+    - 4.1.0-preview.1
+    - 4.1.0-preview.2
+    - 4.1.0-preview.3
+    - 4.1.0-preview.5
+    - 4.1.0-preview.6
+    - 4.1.0-preview.7
+    - 4.1.0-preview.9
+    - 4.1.0-preview.10
+    - 4.1.0-preview.11
+    - 4.1.0-preview.12
+    - 4.1.0-preview.13
+    - 4.1.1
+    - 4.1.3
+    - 4.1.5
+    - 4.1.7
+    - 4.1.9
+    - 4.1.10
+    - 4.1.12
+    - 4.1.13
+    - 4.2.0-pre.2
+    - 4.2.0-pre.3
+    - 4.2.0-pre.4
+    - 4.2.0-pre.5
+    - 4.2.0-pre.7
+    - 4.2.0-pre.8
+    - 4.2.0-pre.9
+    - 4.2.0-pre.10
+    - 4.2.0-pre.12
+    - 4.2.0
+    - 4.2.1
+    - 4.2.2
+    - 4.2.3
+    - 4.2.6
+    - 4.2.7
+    - 4.2.8
+    - 4.2.9
+    - 4.2.10
+    - 5.0.0-pre.5
+    - 5.0.0-pre.6
+    - 5.0.0-pre.7
+    - 5.0.0-pre.8
+    - 5.0.0-pre.9
+    - 5.0.0-pre.12
+    - 5.0.0-pre.13
+    - 5.0.2
+    - 5.0.3
+    - 5.0.4
+    - 5.0.5
+    - 5.0.6
+    - 5.0.7
+    - 5.1.0-pre.1
+    - 5.1.0-pre.2
+    - 5.1.0-pre.3
+    - 5.1.0-pre.4
+    - 5.1.0-pre.6
+    - 5.1.0-pre.8
+    - 5.1.0-pre.9
+    - 5.1.0-pre.10
+    - 5.1.0
+    - 5.1.1
+    - 5.1.2
+    - 5.1.3
+    - 6.0.0-pre.3
+    - 6.0.0-pre.4
+    - 6.0.0-pre.5
+    - 6.0.0-pre.6
+    - 6.0.0-pre.7
+    - 6.0.0-pre.8
+    - 6.0.1
     compatible:
-    - 2.1.10
-    recommended: 2.1.10
+    - 5.1.0
+    - 5.1.1
+    - 5.1.2
+    - 5.1.3
+    recommended: 5.1.3
     deprecated: []
   dependencies:
-  - name: com.unity.modules.vr
+  - name: com.unity.editorcoroutines
     version: 1.0.0
-  - name: com.unity.modules.xr
+  - name: com.unity.inputsystem
+    version: 1.3.0
+  - name: com.unity.xr.core-utils
+    version: 2.2.1
+  - name: com.unity.xr.management
+    version: 4.0.1
+  - name: com.unity.ugui
+    version: 1.0.0
+  - name: com.unity.mathematics
+    version: 1.2.5
+  - name: com.unity.modules.particlesystem
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.unityanalytics
+    version: 1.0.0
+  - name: com.unity.modules.unitywebrequest
     version: 1.0.0
   resolvedDependencies:
-  - name: com.unity.modules.vr
+  - name: com.unity.editorcoroutines
+    version: 1.0.0
+  - name: com.unity.inputsystem
+    version: 1.7.0
+  - name: com.unity.modules.uielements
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
     version: 1.0.0
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
-  - name: com.unity.modules.physics
-    version: 1.0.0
+  - name: com.unity.xr.core-utils
+    version: 2.2.3
   - name: com.unity.modules.xr
+    version: 1.0.0
+  - name: com.unity.modules.physics
     version: 1.0.0
   - name: com.unity.modules.subsystems
     version: 1.0.0
+  - name: com.unity.xr.management
+    version: 4.4.0
+  - name: com.unity.modules.vr
+    version: 1.0.0
+  - name: com.unity.xr.legacyinputhelpers
+    version: 2.1.10
+  - name: com.unity.ugui
+    version: 1.0.0
+  - name: com.unity.mathematics
+    version: 1.2.6
+  - name: com.unity.modules.particlesystem
+    version: 1.0.0
+  - name: com.unity.modules.unityanalytics
+    version: 1.0.0
+  - name: com.unity.modules.unitywebrequest
+    version: 1.0.0
   keywords:
-  - TPD
-  - Tracked Pose Driver
-  - XR
-  - Input
-  - Helpers
+  - xr
+  - ar
+  - augmented
+  - reality
+  - utility
+  - utilities
+  - foundation
+  - core
+  - subsystem
+  - xreditorsubsystem
+  - arsimulation
   registry:
     id: main
     name: 
@@ -3588,16 +3991,92 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637958908030000000
+  datePublishedTicks: 638308973790000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@5.1/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/arfoundation.git
+    revision: 73f49e36b422f20856c71e3466ba7331add35064
+    path: 
+  unityLifecycle:
+    version: 5.1.0
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.mathematics@1.2.6
+  testable: 0
+  isDirectDependency: 0
+  version: 1.2.6
+  source: 1
+  resolvedPath: C:\Users\fanis\SignalsVR\Library\PackageCache\com.unity.mathematics@1.2.6
+  assetPath: Packages/com.unity.mathematics
+  name: com.unity.mathematics
+  displayName: Mathematics
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: asset
+  description: Unity's C# SIMD math library providing vector types and math functions
+    with a shader like syntax.
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 0.0.12-preview.2
+    - 0.0.12-preview.5
+    - 0.0.12-preview.8
+    - 0.0.12-preview.10
+    - 0.0.12-preview.11
+    - 0.0.12-preview.13
+    - 0.0.12-preview.17
+    - 0.0.12-preview.19
+    - 0.0.12-preview.20
+    - 1.0.0-preview.1
+    - 1.0.1
+    - 1.1.0-preview.1
+    - 1.1.0
+    - 1.2.1
+    - 1.2.4
+    - 1.2.5
+    - 1.2.6
+    - 1.3.1
+    - 1.3.2
+    compatible:
+    - 1.2.6
+    - 1.3.1
+    - 1.3.2
+    recommended: 1.2.6
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords:
+  - unity
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 637841876140000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
-    url: https://github.cds.internal.unity3d.com/unity/com.unity.xr.legacyinputhelpers.git
-    revision: 465ee12451634ea2b2986d54f6ae8be37316772a
+    url: https://github.com/Unity-Technologies/Unity.Mathematics.git
+    revision: f110c8c230d253654afed153569030a587cc7557
     path: 
   unityLifecycle:
-    version: 2.1.10
+    version: 1.2.6
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -4237,6 +4716,75 @@ m_ResolvedPackages:
     path: 
   unityLifecycle:
     version: 1.2.4
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.meta.xr.sdk.core@64.0.0
+  testable: 0
+  isDirectDependency: 0
+  version: 64.0.0
+  source: 1
+  resolvedPath: C:\Users\fanis\SignalsVR\Library\PackageCache\com.meta.xr.sdk.core@64.0.0
+  assetPath: Packages/com.meta.xr.sdk.core
+  name: com.meta.xr.sdk.core
+  displayName: Meta XR Core SDK
+  author:
+    name: Meta Platforms, Inc.
+    email: 
+    url: https://developer.oculus.com/
+  category: 
+  type: 
+  description: Meta XR Core SDK package provides the latest features to create immersive
+    experiences for Meta XR devices.
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 59.0.0
+    - 60.0.0
+    - 62.0.0
+    - 63.0.0
+    - 64.0.0
+    compatible:
+    - 59.0.0
+    - 60.0.0
+    - 62.0.0
+    - 63.0.0
+    - 64.0.0
+    recommended: 
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords:
+  - SDK
+  - XR
+  - Oculus
+  - Meta
+  - Quest
+  - Utilities
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 1
+  datePublishedTicks: 638488975510000000
+  documentationUrl: https://developer.oculus.com/documentation/unity/
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0

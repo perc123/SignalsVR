@@ -1,1 +1,9 @@
+<<<<<<< HEAD
 sceneSetups: []
+=======
+sceneSetups:
+- path: Assets/Scenes/Begining.unity
+  isLoaded: 1
+  isActive: 1
+  isSubScene: 0
+>>>>>>> 0fa65c01eb1406606d1530f07bc490d43fb28807

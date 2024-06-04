@@ -4,5 +4,18 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
-  m_configObjects: {}
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Begining.unity
+    guid: 555ad30a82d8ea34d9dbe4ef053099cc
+  - enabled: 0
+    path: Assets/Samples/Meta XR Simulator Samples/64.0.0/Usage Assets/SceneManager/Scenes/VirtualFurniture.unity
+    guid: 4977c9139e37ed74c8fc8f818aeb9515
+  - enabled: 0
+    path: Assets/Samples/Meta XR Simulator Samples/64.0.0/Usage Assets/SceneManager.unity
+    guid: d9d629a01189e9744a9347a18243afd9
+  m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 1d70f9877805d5549a2c6076e8cb5b06, type: 2}
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: db1bc272511eeae47b99d0d2ad098546, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: a99b3285910e4604eaa57dd8ac3b5261, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: f1315f1320d6a88499e947cb5b088953, type: 2}
